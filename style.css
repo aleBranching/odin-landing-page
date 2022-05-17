@@ -1,0 +1,139 @@
+:root {
+  --main: #e2e2e2;
+  --secondary: #c9c9c9;
+  --secondary-darker: #755e5e;
+  --third: #8f7070fb;
+  font-family: "Playfair Display", serif;
+}
+html,
+li,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #e2e2e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  background-color: var(--main);
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  flex: auto;
+  padding-top: 40px;
+}
+
+.left {
+  /* border: 1px solid red; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: left;
+  width: 400px;
+  /* flex-basis: 400px; */
+  /* flex: 1; */
+}
+
+.right {
+  display: flex;
+  flex: 0;
+  /* border: 1px solid red; */
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-links {
+  display: flex;
+  /* Link three */
+  /* gap: 12px; */
+  /* padding: 20px; */
+  /* margin-bottom: px; */
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+button {
+  background-color: #3882f6; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+.content {
+  background-color: var(--third);
+  display: flex;
+  flex-direction: column;
+  /* height: 100px; */
+  /* flex: 1; */
+}
+.footer {
+  background-color: var(--secondary);
+  display: flex;
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.randInfo {
+  padding: 23px;
+  background-color: var(--secondary);
+}
+
+.card img {
+  width: 250px;
+  height: 200px;
+  border: 5px solid var(--secondary-darker);
+  border-radius: 22px;
+}
+.card {
+  max-width: 250px;
+}
+
+.cardText {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  /* flex-wrap: wrap; */
+}
