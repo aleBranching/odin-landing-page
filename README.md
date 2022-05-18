@@ -1,13 +1,14 @@
 # odin-landing-page
+Practising plain CSS and flexbox rather than using any libraries.
 
 Landing page for The Odin Project
 
 ## Extra features that are to be implemented:
 
-x responsive layout with flexbox
+- responsive layout with flexbox
 
-x SVG animation
+- SVG animation
 
-x responsive nav bar
+- responsive nav bar
 
-x wavey curves seperation
+- wavey curves seperation
